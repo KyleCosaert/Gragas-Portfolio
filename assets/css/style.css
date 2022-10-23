@@ -99,7 +99,7 @@ h3 {
   justify-content: space-around;
 }
 
-.about-text p {
+.about p {
   color: aliceblue;
   letter-spacing: 1px;
   line-height: 28px;
@@ -119,12 +119,76 @@ h3 {
   width: 250px;
   display: flexbox;
   margin: auto;
-  padding: 40px 20px 0px 0px;
+  padding: 15px;
   text-align: left;
-  background-color: transparent;
+  background-color: black;
+  border-radius: 25px;
 }
+
 .skills img:hover {
   opacity: .5;
   background-color: aqua;
   padding: 5px;
+  cursor: pointer;
+}
+
+.projects {
+  background-color: black;
+  text-align: center;
+  padding-top: 1.5%;
+  padding-bottom: 3%;
+  line-height: 45px;
+}
+
+.projects img {
+  height: 375px;
+  width: 375px;
+  display: flexbox;
+  margin: auto;
+  padding: 15px;
+  text-align: left;
+  background-color: black;
+  border-radius: 25px;
+}
+
+.projects img:hover {
+  opacity: .5;
+  background-color: aqua;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.contact {
+  background-color: black;
+  margin-left: 3% black;
+  margin-right: 3% black;
+  text-align: center;
+}
+
+.contact li {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.contact li a:hover{
+  color: rgb(81, 179, 209);
+  transition: .5s;
+}
+
+footer {
+  background-color: black;
+  padding: 1%;
+}
+
+footer p {
+  color: aliceblue;
+  text-align: center;
 }

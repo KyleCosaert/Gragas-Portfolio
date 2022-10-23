@@ -10,12 +10,12 @@
 <body>
     <header class="hero">
         <nav>
-            <h1 class="header"><span>Po</span>rtfoli<span>o</span></h1>
+            <h1 class="header"><span>Port</span>folio</h1>
             <ul>
                <li><a href="#about">About Me</a></li> 
                <li><a href="#skills">Skills</a></li> 
-               <li><a href='#'>Credentials</a></li>
-               <li><a href='#'>Contact Me</a></li>
+               <li><a href='#projects'>Projects</a></li>
+               <li><a href='#contact'>Contact Me</a></li>
             </ul>
         </nav>
         <section class="content">
@@ -26,8 +26,8 @@
     
     <!--About Me Section-->
     <section class="about">
-        <div id="about">
-        <div class="main">
+        <nav id="about">
+        <summary class="main">
             <img src="assets/images/avatar.JPG">
             <div class="about-text">
                 <h1>About <span>Me</span></h1>
@@ -42,8 +42,8 @@
                     and software publishing industries.
                 </p>
             </div>
-        </div>
-        </div>
+        </summary>
+        </nav>
     </section>
 
     <!--skills section-->
@@ -51,13 +51,46 @@
         <div id="skills">
         <h1>Skills</h1>
         <h2>Coding Languges I Know</h2>
-            <img src="assets/images/java.png">
-            <img src="assets/images/css.jpg">
-            <img src="assets/images/html.png">
-            <img src="assets/images/python.jpg">
-            <img src="assets/images/c++.png">
+            <ul>
+                <a href="https://www.javascript.com/"> 
+                <img alt="javascript" src="./assets/images/java.png" width="50" height="50"></a>
+                <a href="https://www.w3schools.com/css/css_intro.asp">
+                <img alt="css" src="./assets/images/css.jpg" width="50" height="50"></a>
+                <a href="https://html.com/">
+                <img alt="html" src="./assets/images/html.png" width="50" height="50"></a>
+                <a href="https://www.python.org/">
+                <img alt="python" src="assets/images/python.jpg" width="50" height="50"></a>
+                <a href="https://www.w3schools.com/cpp/">
+                <img alt="c++" src="assets/images/c++.png" width="50" height="50"></a>
+            </ul>
         </div>
     </section>
 
+    <!--Projects-->
+    <section class = "projects">
+        <div id="projects">
+                <h1>Past Proj<span>ects</span></h1>
+                <ul>
+                <img alt="prework study guide" src="./assets/images/prework-study-guide.JPG">
+                <img alt="module 1 repo" src="./assets/images/module1repo.JPG">
+                </ul>
+            </div>
+    </section>
+    <!--Contacts-->
+    <section class ="contact">
+        <nav id="contact">
+            <h1><span>Contact</span> Me</h1>
+                <li><a href='https://www.linkedin.com/in/kyle-cosaert-a00033168/'>Linkedin</a></li>
+                <li>661.210.6736</li>
+                <li>Kylecosaert@gmail.com</li>
+                <li><a href='https://github.com/KyleCosaert'>Github</a></li>
+                <li><a href='https://www.instagram.com/kylecosaert/'>Instagram</a></li>
+        </nav>
+    </section>
+
+    <!--footer start-->
+    <footer>
+        <p>Made by Kyle Cosaert</p>
+    </footer>
 </body>
 </html>
